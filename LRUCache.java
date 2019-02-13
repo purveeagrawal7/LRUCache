@@ -31,7 +31,6 @@ public class LRUCache {
 
 	public int get(int key) {
 		Node node=map.get(key);
-		//boolean itemFound = true;
 		if(node==null) {
 			return -1;
 		}
